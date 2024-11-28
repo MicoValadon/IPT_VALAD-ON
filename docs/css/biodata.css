@@ -1,0 +1,49 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: white;
+}
+
+.container {
+  display: flex;
+}
+
+.image-box {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  margin-right: 20px
+}
+
+.image-box img {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  text-align: left;
+  color: white;
+  background-color: black;
+  border: 2px solid white;
+  padding: 20px;
+  margin-top: 20px;
+
+}
+
+.h3-group {
+  border: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+h3 {
+  flex: 1 1 calc(50% - 20px);
+  color: black;
+  margin: 5px 0;
+}
